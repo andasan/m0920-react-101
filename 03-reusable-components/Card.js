@@ -7,8 +7,8 @@ function Card(props){
                         <img src="https://picsum.photos/200/300" />
                     </div>
                     <div className="card-content">
-                        <p>{props.data.instructor}</p>
-                        <p>{props.data.subject}</p>
+                        <p>{props.name}</p>
+                        <p>{props.subject}</p>
                     </div>
                 </div>
             </div>

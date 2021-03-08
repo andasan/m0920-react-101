@@ -8,12 +8,9 @@ function Card(props){
                         <img src="https://picsum.photos/200/300" />
                     </div>
                     <div className="card-content">
-                        <p>{props.name}</p>
-                        <p>{props.subject}</p>
+                        <p>{props.data.instructor}</p>
+                        <p>{props.data.subject}</p>
                     </div>
-                    {/* <div className="card-action">
-                        {sale ? '$1.99' : '$9.99'}
-                    </div> */}
                 </div>
             </div>
         </div>

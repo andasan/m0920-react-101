@@ -21,8 +21,8 @@
     ></script>
     <!-- BABEL COMPILER -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js" integrity="sha512-kp7YHLxuJDJcOzStgd6vtpxr4ZU9kjn77e6dBsivSz+pUuAuMlE2UTdKB7jjsWT84qbS8kdCWHPETnP/ctrFsA==" crossorigin="anonymous"></script>
-    <script src="./Card.js" type="text/babel"></script>
     <script src="./data.js"></script>
+    <script src="./Card.js" type="text/babel"></script>
   </head>
   <body>
 
@@ -32,12 +32,12 @@
 
        
         ReactDOM.render(
-          <>
+          <React.Fragment>
             <Card name={data[0].instructor} subject={data[0].subject} />
             <Card name={data[1].instructor} subject={data[1].subject} />
             <Card name={data[2].instructor} subject={data[2].subject} />
             <Card name={data[3].instructor} subject={data[3].subject} />
-          </>, 
+          </React.Fragment>, 
           document.getElementById('root')
         )
 

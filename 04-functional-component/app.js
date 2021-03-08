@@ -1,5 +1,4 @@
 let cards = data.map((result, index) => {
-  console.log(result)
   return(
     <Card key={index} data={result} />
 )})
