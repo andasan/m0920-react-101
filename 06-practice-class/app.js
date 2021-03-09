@@ -37,6 +37,6 @@ const data = [
 ]
 
 ReactDOM.render(
-    WHAT,
-    WHERE
+    <Category icons={data} toys={['lego','rubberball','robot','yoyo']} />,
+    document.getElementById('root')
 );
